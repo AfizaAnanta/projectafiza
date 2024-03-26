@@ -8,25 +8,25 @@
 <body>
     <style>
         .frame-kalks  #neelam{  
-   width:350px;  
-   border-bottom: 2px #00FFFF solid ;  
-   border-bottom-color:#92a8d1;  
-   background-color:#92a8d1;  
+   width:385px;  
+   border-bottom: 6px solid ;  
+   border-bottom-color:#E9967A;  
+   background-color:#A9A9A9;  
  }  
 .frame-kalks table {  
   margin: auto;  
-  width: 350px;  
-  max-width: 350px;  
-  height: 325px;  
+  width: 425px;  
+  max-width: 400px;  
+  height: 500px;  
   text-align: center;  
-  border-radius: 3px;  
+  border-radius: 4px;  
   padding-right: 10px;  
  }  
 .frame-kalks input {  
   outline: 0;  
   position: relative;  
-  left: 6px;  
-  top: 5px;  
+  left: 8px;  
+  top: 6px;  
   border: 0;  
   color: #3C565B;  
   background-color: #bbb;  
@@ -40,30 +40,7 @@
   box-shadow:0 4px rgba(0,0,0,0.2);  
   margin-bottom:15px;  
   }  
-.frame-kalks  input:hover{  
-    border:0 solid#000;  
-    color:#495069;  
-    background-color:#eee;  
-    border-radius: 4px;  
-    width: 60px;  
-    height: 50px;  
-    float: left;  
-    font-size: 20px;  
-    box-shadow: 0 4px #b0d2cf;  
-  }  
-.frame-kalks  input: active {  
-    top: 4px;  
-    border: 0 solid #000;  
-    color: #495069;  
-    background-color: #bbb;  
-    border-radius: 4px;  
-    width: 60px;  
-    height: 50px;  
-    float: left;  
-    margin: 5px;  
-    font-size: 20px;  
-    box-shadow: none;  
-  }  
+
 .frame-kalks  #display  {
   width: 265px;  
   max-width: 270;  
@@ -72,21 +49,8 @@
   background-color: #bcbd95;  
   float: left;  
   }  
- .frame-kalks #display: hover{  
-    width: 270px;  
-    font-size: 26px;  
-    text-align: right ;  
-    background-color: #bcbd95;  
-    box-shadow: 0 4px rgba(0,0,0,0.75);  
-  }  
-.frame-kalks  #display:active;{  
-    top: 5px;  
-    width: 270px;  
-    font-size: 26px;  
-    text-align: right ;  
-    background-color: #bcbd95;  
-    box-shadow: 0 4px rgba(0,0,0,0.2)  
-  }  
+ 
+    
 .frame-kalks  .operator{  
     background-color: #cee9ea;  
     position: relative ;  
@@ -99,41 +63,26 @@
     float: left;  
     position: relative ;  
     display: block ;  
-    background-color: #ff9fa8;  
+    background-color: #00FFFF;  
   }  
- .frame-kalks #clear:hover{  
-    float: left;  
-    display: block;  
-    background-color: #f297A0;  
-    margin-bottom: 15px;  
-    box-shadow: 0 4px #cc7f86;  
-  }  
-.frame-kalks  #clear: active{  
-    float: left;  
-    top: 4px;  
-    display: block ;  
-    background-color: #f297A0;  
-    margin-bottom: 15px;  
-    box-shadow: none;  
-  }   
- .frame-kalks h3{  
-    text-align:center ;  
-    color: green ;  
-    font-size: 109%;  
-  }  
+ 
+ 
     </style>
 <center>
   <h1>KALKULATOR SEDERHANA</h1>
-<div class="frame-kalks alert-info p-4 rounded">
+  <h3>Nama : Afiza Ananta</h3>
+  <h3>kelas : XII RPL1</h3>
+
+<div class="frame-kalks alert-info p-10 rounded">
     <form name="calc">  
-        <table class="red-gradient" border=15>  
+        <table class="red-gradient" border=10>  
             <tr>  
                 <td colspan="4">   <input type="text" name="display" id="neelam" value="" readonly>  </td>  
             </tr>  
                 <td><input type="button" value="0" onClick="calc.display.value+='0'"></td>  
-                <td> <input type="button" value="1" onClick="calc.display.value+='1'"> </td>   
+                <td><input type="button" value="1" onClick="calc.display.value+='1'"> </td>   
                 <td><input type="button" value="2" onClick="calc.display.value+='2'"></td>  
-                <td> <input type="button" class="operator" name = "plus"value="+"  onClick="calc.display.value+='+'"></td>  
+                <td><input type="button" class="operator" name = "plus"value="+"  onClick="calc.display.value+='+'"></td>  
             <tr>  
                 <td> <input type="button" value="3" onClick="calc.display.value+='3'"> </td>  
                 <td> <input type="button" value="4" onClick="calc.display.value+='4'"> </td>  
